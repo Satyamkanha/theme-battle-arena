@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_dark">#0F172A</color>
+
+    <color name="card_dark">#1E293B</color>
+
+    <color name="cricket_card">#1B5E20</color>
+    <color name="football_card">#1565C0</color>
+    <color name="food_card">#EF6C00</color>
+    <color name="gaming_card">#6A1B9A</color>
+
+    <color name="gold">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

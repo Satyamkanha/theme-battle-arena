@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theme Battle"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <GridLayout
+        android:id="@+id/gameBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <ImageButton
+            android:layout_margin="2dp"
+            android:id="@+id/cell0"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#EAEAEA"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:layout_margin="2dp"
+            android:id="@+id/cell1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#EAEAEA"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:layout_margin="2dp"
+            android:id="@+id/cell2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#EAEAEA"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:layout_margin="2dp"
+            android:id="@+id/cell3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#EAEAEA"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:layout_margin="2dp"
+            android:id="@+id/cell4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#EAEAEA"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:layout_margin="2dp"
+            android:id="@+id/cell5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#EAEAEA"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:layout_margin="2dp"
+            android:id="@+id/cell6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#EAEAEA"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:layout_margin="2dp"
+            android:id="@+id/cell7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#EAEAEA"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:layout_margin="2dp"
+            android:id="@+id/cell8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#EAEAEA"
+            android:scaleType="centerInside"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/restartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart Game"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
